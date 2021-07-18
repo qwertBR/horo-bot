@@ -13,7 +13,7 @@ conn = psycopg2.connect(
     database="d27og815j0mbf6",
     user="moqnbmvsyckqmd",
     port="5432",
-    password="e40c2dec9c0c9887a59dce7c8845d632c5a60b464b127636bd119657b390d1fe",
+    password="",
 )
 cur = conn.cursor()
 
@@ -123,7 +123,7 @@ def catalog_sign():
     return keyboard1
 
 
-bot = telebot.TeleBot('1944043440:AAE5VKYTlf29vPLG-0Od0H76GpnWBhB_Um4')
+bot = telebot.TeleBot('')
 
 
 @bot.message_handler(commands=['start'])
